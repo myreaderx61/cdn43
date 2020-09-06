@@ -1,0 +1,1050 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="application-name" content="BBOOTS" />
+<meta name="msapplication-TileColor" content="#ffffff" />
+<title>App Releases | Mobilism</title>
+
+<link href="./style.php?id=10&amp;lang=en&amp;sid=39098cbb6286921c8653776f34753919" rel="stylesheet">
+<style type="text/css">
+@import url("outer.css");
+
+</style>
+
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,500,600,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Lato:400,500,600,700' rel='stylesheet' type='text/css'>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+<script>
+// this loads jquery asyncrounously & in parallel
+head.load("./styles/BBOOTS/theme/js/jquery-1.11.0.min.js", "./styles/BBOOTS/theme/bootstrap/js/bootstrap.min.js", "./styles/BBOOTS/theme/bootstrap/js/bootstrap-select.min.js", "./styles/BBOOTS/template/forum_fn.js", "./styles/BBOOTS/theme/footable/js/footable.min.js", "./styles/BBOOTS/theme/js/twitterFetcher_v10_min.js", "/js/qrcode.min.js", "/js/jquery.modal.min.js" 
+);
+
+</script>
+<script>
+function find_username(e){popup(e,760,570,"_usersearch");return false}var jump_page="Enter the page number you wish to go to:";var on_page="1";var per_page="40";var base_url="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919";var style_cookie="phpBBstyle";var style_cookie_settings="; path=/";var onload_functions=new Array;var onunload_functions=new Array;window.onload=function(){for(var i=0;i<onload_functions.length;i++){eval(onload_functions[i])}};window.onunload=function(){for(var i=0;i<onunload_functions.length;i++){eval(onunload_functions[i])}}
+</script>
+
+<link href='/css/jquery.modal.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body id="phpbb" class="section-viewforum ltr">
+<div class="jumbotron masthead">
+<div class="container">
+<section class="social-top">
+<div class="pull-right">
+<a class="icon-stack" href="https://twitter.com/mobilism_org/">
+<i class="icon-circle icon-stack-base twitter-color"></i>
+<i class="icon-twitter icon-light"></i>
+</a>
+</div>
+</section>
+<header class="header" role="banner"> 
+<div class="topArea"> 
+<div class="leftArea">
+<div class="logo-transition">
+<a class="logo" href="./index.php?sid=39098cbb6286921c8653776f34753919" title=""><span>M</span>OBILISM</a>
+</div>
+<p class="site-info">
+Your Source for Apps & Books
+</p>
+<div class="clearfix"></div>
+</div>
+<nav class="mainnav" role="navigation" aria-label="Primary">
+<ul>
+<li class="nav-icon">
+<a href="./viewforum.php?f=106">BOOKS &#x25BE; <span class="has-sub"></span></a>
+<ul class="submenu greydout">
+<li><a href="./viewforum.php?f=1292">Romance</a><span></span></li>
+<li><a href="./viewforum.php?f=1293">Sci-fi</a><span></span></li>
+<li><a href="./viewforum.php?f=121">Classics</a><span></span></li>
+<li><a href="./viewforum.php?f=123">Magazines</a><span></span></li>
+<li><a href="./viewforum.php?f=124">Audiobooks</a><span></span></li>
+<li><a href="./viewforum.php?f=311">Comics</a><span></span></li>
+<li><a href="./viewforum.php?f=120">More...</a><span></span></li>
+</ul>
+</li>
+<li class="nav-icon">
+<a href="./viewforum.php?f=375">APPS &#x25BE; <span class="has-sub"></span></a>
+<ul class="submenu greydout">
+<li><a href="./viewforum.php?f=399">Android Apps</a><span></span></li>
+<li><a href="./viewforum.php?f=408">Android Games</a><span></span></li>
+<li><a href="./viewforum.php?f=316">iPhone Apps</a><span></span></li>
+<li><a href="./viewforum.php?f=320">iPhone Games</a><span></span></li>
+<li><a href="./viewforum.php?f=951">iPad Apps</a><span></span></li>
+<li><a href="./viewforum.php?f=988">iPad Games</a><span></span></li>
+</ul>
+</li>
+<li class="nav-icon">
+<a href="//forum.mobilism.org/portal.php?mode=articles&block=aapp">PORTAL |<span class="has-sub"></span></a>
+</li>
+<div class="pull-right">
+<div class="search-mobilism search-box">
+<form method="get" id="forum-search" action="./search.php?sid=39098cbb6286921c8653776f34753919">
+<fieldset>
+<input type="text" size="9" name="keywords" id="search_keywords" placeholder="Search mobilism…">
+
+<input type="hidden" name="sr" value="topics" />
+<input type="hidden" name="sf" value="titleonly" />
+</fieldset>
+</form>
+</div>
+</div>
+<li class="nav-icon">
+<a href="./ucp.php?mode=login&amp;sid=39098cbb6286921c8653776f34753919">Login |<span class="has-sub"></span></a>
+</li>
+<li class="nav-icon">
+<a href="./ucp.php?mode=register&amp;sid=39098cbb6286921c8653776f34753919">Register&nbsp; <span class="has-sub"></span></a>
+</li>
+</ul>
+<div class="navBtn"><span></span>
+<a data-toggle="collapse" data-target=".nav-collapse" id="nav-shown" class="icon-align-justify" href="javascript:void(0);" title=""></a>
+<a class="icon-signin" href="./ucp.php?mode=login&amp;sid=39098cbb6286921c8653776f34753919" title=""></a>
+</div>
+</nav> 
+<div id="nav-listen" class="nav-collapse collapse flexnav-show">
+<nav class="hidden-desktop hidden-tablet"> 
+<ul class="flexnav">
+<li><a href="./ucp.php?mode=register&amp;sid=39098cbb6286921c8653776f34753919"><i class="icon-thumbs-up"></i> Register</a></li>
+<li><a href="//forum.mobilism.org/portal.php?mode=articles&block=aapp"><i class="icon-comments"></i> PORTAL</a></li>
+<li><a href="./memberlist.php?sid=39098cbb6286921c8653776f34753919"><i class="icon-user"></i> Members</a></li>
+<li class="item-with-ul">
+<a href="./search.php?sid=39098cbb6286921c8653776f34753919"><i class="icon-search"></i> SEARCH</a>
+<ul class="collapse viewdetails">
+</ul>
+<a class="touch-button" href="javascript:void(0);" data-toggle="collapse" data-target=".viewdetails"><i class="navicon icon-sort-down"></i></a>
+</li>
+
+</ul>
+</nav> 
+</div>
+</div>
+</header> 
+</div>
+</div>
+<div class="bs-docs-social">
+<div class="container">
+</div>
+</div>
+<div id="wrap" class="corners container">
+
+<div id="content-forum">
+<div class="padding_0_40">
+<div id="page-body">
+<main role="main">
+<div class="row-fluid" style="margin-top:5px;">
+<div class="page-category"><h3><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919">App Releases</a></h3></div>
+</div>
+<div>
+<div style="display: none !important;">All app releases are available in this section. New releases have to be posted here.<br /></div>
+</div>
+<div class="row-fluid">
+<div class="pull-right">
+<div class="pagination pagination-small hidden-phone">
+<ul>
+<li class="active"><a>1</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=40">2</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=80">3</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=120">4</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=160">5</a></li><li class="active"><a class="pointer-fix" href="#" onclick="jumpto(); return false;" title="Jump to page"> ... </a></li><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=351600">8791</a></li><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=40"><i class="icon-chevron-right"></i></a></li>
+</ul>
+</div>
+<div class="visible-phone">
+<div class="pagination pagination-small">
+<ul>
+<li class="active"><a>1</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=40">2</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=80">3</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=120">4</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=160">5</a></li><li class="active"><a class="pointer-fix" href="#" onclick="jumpto(); return false;" title="Jump to page"> ... </a></li><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=351600">8791</a></li><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=40"><i class="icon-chevron-right"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="pull-left">
+<a href="./posting.php?mode=post&amp;f=399&amp;sid=39098cbb6286921c8653776f34753919" data-original-title="Post a new topic" type="button" class="btn"><i class="icon-share-alt"></i> New Topic</a>
+<div class="btn-group">
+</div>
+</div>
+</div>
+<div class="space10"></div>
+<table class="footable table table-white table-primary table-hover announcement">
+<thead>
+<tr>
+<th class="" data-class="expand"><i class="icon-bullhorn"></i> Services</th>
+<th class="large80" data-hide="phone"><i class="icon-bar-chart"></i> STATS</th>
+<th class="large20" data-hide="phone"><i class="icon-comments-alt"></i> Last post</th>
+</tr>
+</thead>
+<tbody>
+<tr class=" global-announce">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/announce_read.gif); background-repeat: no-repeat;" title="No unread posts"></i>
+<a class="topictitle" title="Posted : Jan 8th, 2012, 1:26 am" href="./viewtopic.php?f=399&amp;t=284351&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Download Directly with Mobilism Premium</a>
+<br />
+<strong class="pagination"><span><a href="./viewtopic.php?f=399&amp;t=284351&amp;sid=39098cbb6286921c8653776f34753919">1</a><li class="page-dots"> ... </li><a href="./viewtopic.php?f=399&amp;t=284351&amp;sid=39098cbb6286921c8653776f34753919&amp;start=5880">393</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=284351&amp;sid=39098cbb6286921c8653776f34753919&amp;start=5895">394</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=284351&amp;sid=39098cbb6286921c8653776f34753919&amp;start=5910">395</a></span></strong><i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=2141&amp;sid=39098cbb6286921c8653776f34753919" style="color: #FF0000;" class="username-coloured">Disk4mat</a> <i class="icon-time"></i> <small>Jan 8th, 2012, 1:26 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">5919</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">10635167</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=662139&amp;sid=39098cbb6286921c8653776f34753919" style="color: #0000FF;" class="username-coloured">ngaletl</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=399&amp;t=284351&amp;p=7853575&amp;sid=39098cbb6286921c8653776f34753919#p7853575"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 4:58 pm</small>
+</td>
+</tr>
+<tr class=" global-announce">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/announce_read.gif); background-repeat: no-repeat;" title="No unread posts"></i>
+<a class="topictitle" title="Posted : Jul 9th, 2011, 2:40 am" href="./viewtopic.php?f=399&amp;t=214777&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Mobilism v2.1.0.27 for Android</a>
+<br />
+<strong class="pagination"><span><a href="./viewtopic.php?f=399&amp;t=214777&amp;sid=39098cbb6286921c8653776f34753919">1</a><li class="page-dots"> ... </li><a href="./viewtopic.php?f=399&amp;t=214777&amp;sid=39098cbb6286921c8653776f34753919&amp;start=3675">246</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=214777&amp;sid=39098cbb6286921c8653776f34753919&amp;start=3690">247</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=214777&amp;sid=39098cbb6286921c8653776f34753919&amp;start=3705">248</a></span></strong><i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=2141&amp;sid=39098cbb6286921c8653776f34753919" style="color: #FF0000;" class="username-coloured">Disk4mat</a> <i class="icon-time"></i> <small>Jul 9th, 2011, 2:40 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">3706</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">13756437</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1684930&amp;sid=39098cbb6286921c8653776f34753919" style="color: #0000FF;" class="username-coloured">vonDubenshire</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=399&amp;t=214777&amp;p=7841861&amp;sid=39098cbb6286921c8653776f34753919#p7841861"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Sep 2nd, 2020, 10:13 pm</small>
+</td>
+</tr>
+</table>
+<table class="footable table table-white table-primary table-hover">
+<thead>
+<tr>
+<th class="" data-class="expand"><i class="icon-group"></i> Topics</th>
+<th class="large80" data-hide="phone"><i class="icon-bar-chart"></i> STATS</th>
+<th class="large20" data-hide="phone"><i class="icon-comments-alt"></i> Last post</th>
+</tr>
+</thead>
+<tbody>
+<tr class=" sticky">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/sticky_read.gif); background-repeat: no-repeat;" title="No unread posts"></i>
+<a class="topictitle" title="Posted : Oct 31st, 2009, 8:37 am" href="./viewtopic.php?f=399&amp;t=85500&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">How to Post a Release</a>
+<br />
+<strong class="pagination"><span><a href="./viewtopic.php?f=399&amp;t=85500&amp;sid=39098cbb6286921c8653776f34753919">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=85500&amp;sid=39098cbb6286921c8653776f34753919&amp;start=15">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=85500&amp;sid=39098cbb6286921c8653776f34753919&amp;start=30">3</a></span></strong><i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=335952&amp;sid=39098cbb6286921c8653776f34753919" style="color: #FF0000;" class="username-coloured">Jimking</a> <i class="icon-time"></i> <small>Oct 31st, 2009, 8:37 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">34</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">166627</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=335952&amp;sid=39098cbb6286921c8653776f34753919" style="color: #FF0000;" class="username-coloured">Jimking</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=399&amp;t=85500&amp;p=7748255&amp;sid=39098cbb6286921c8653776f34753919#p7748255"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Aug 2nd, 2020, 1:36 pm</small>
+</td>
+</tr>
+<tr class=" sticky">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/sticky_read.gif); background-repeat: no-repeat;" title="No unread posts"></i>
+<a class="topictitle" title="Posted : Mar 23rd, 2016, 6:21 pm" href="./viewtopic.php?f=399&amp;t=1489943&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">.exe or virus warning after downloading an app (Download instructions)</a>
+<br />
+<strong class="pagination"><span><a href="./viewtopic.php?f=399&amp;t=1489943&amp;sid=39098cbb6286921c8653776f34753919">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=1489943&amp;sid=39098cbb6286921c8653776f34753919&amp;start=15">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=1489943&amp;sid=39098cbb6286921c8653776f34753919&amp;start=30">3</a></span></strong><i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=2141&amp;sid=39098cbb6286921c8653776f34753919" style="color: #FF0000;" class="username-coloured">Disk4mat</a> <i class="icon-time"></i> <small>Mar 23rd, 2016, 6:21 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">35</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">122898</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1792354&amp;sid=39098cbb6286921c8653776f34753919">adomanim</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=399&amp;t=1489943&amp;p=7747901&amp;sid=39098cbb6286921c8653776f34753919#p7747901"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Aug 2nd, 2020, 11:26 am</small>
+</td>
+</tr>
+<tr class=" sticky">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/sticky_read.gif); background-repeat: no-repeat;" title="No unread posts"></i>
+<a class="topictitle" title="Posted : Mar 11th, 2020, 5:21 am" href="./viewtopic.php?f=399&amp;t=3558945&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">No &quot;Thank You&quot; Posts Allowed</a>
+<br />
+<strong class="pagination"><span><a href="./viewtopic.php?f=399&amp;t=3558945&amp;sid=39098cbb6286921c8653776f34753919">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=3558945&amp;sid=39098cbb6286921c8653776f34753919&amp;start=15">2</a></span></strong><i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=2141&amp;sid=39098cbb6286921c8653776f34753919" style="color: #FF0000;" class="username-coloured">Disk4mat</a> <i class="icon-time"></i> <small>Mar 11th, 2020, 5:21 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">23</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">29125</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=5201&amp;sid=39098cbb6286921c8653776f34753919" style="color: #0000FF;" class="username-coloured">BamSec1</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=399&amp;t=3558945&amp;p=7697451&amp;sid=39098cbb6286921c8653776f34753919#p7697451"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Jul 15th, 2020, 7:22 pm</small>
+</td>
+</tr>
+<tr class=" sticky">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/sticky_read.gif); background-repeat: no-repeat;" title="No unread posts"></i>
+<a class="topictitle" title="Posted : Sep 3rd, 2012, 1:13 am" href="./viewtopic.php?f=399&amp;t=389017&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">List of Android Ad Types</a>
+<br />
+<strong class="pagination"><span><a href="./viewtopic.php?f=399&amp;t=389017&amp;sid=39098cbb6286921c8653776f34753919">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=389017&amp;sid=39098cbb6286921c8653776f34753919&amp;start=15">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=399&amp;t=389017&amp;sid=39098cbb6286921c8653776f34753919&amp;start=30">3</a></span></strong><i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=2141&amp;sid=39098cbb6286921c8653776f34753919" style="color: #FF0000;" class="username-coloured">Disk4mat</a> <i class="icon-time"></i> <small>Sep 3rd, 2012, 1:13 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">35</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">156166</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1735649&amp;sid=39098cbb6286921c8653776f34753919">mobi075</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=399&amp;t=389017&amp;p=6868955&amp;sid=39098cbb6286921c8653776f34753919#p6868955"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Oct 2nd, 2019, 6:54 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Aug 30th, 2020, 10:26 am" href="./viewtopic.php?f=1332&amp;t=3825133&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">YouTube Music v3.81.52 Non-Root [Premium Unlocked] [Lite]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a> <i class="icon-time"></i> <small>Aug 30th, 2020, 10:26 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">8</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">4242</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1915182&amp;sid=39098cbb6286921c8653776f34753919">UserTest</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=1332&amp;t=3825133&amp;p=7854151&amp;sid=39098cbb6286921c8653776f34753919#p7854151"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">12 minutes ago</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Jul 20th, 2020, 5:53 pm" href="./viewtopic.php?f=423&amp;t=3758770&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Palace Betting Tips v1.1 [VIP]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a> <i class="icon-time"></i> <small>Jul 20th, 2020, 5:53 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">9</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">1125</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=968919&amp;sid=39098cbb6286921c8653776f34753919">strix75</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=423&amp;t=3758770&amp;p=7854143&amp;sid=39098cbb6286921c8653776f34753919#p7854143"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">14 minutes ago</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : 19 minutes ago" href="./viewtopic.php?f=439&amp;t=3839035&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Alpha Launcher Free - No ads v10.7 (SAP) (Premium)</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=1153477&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">vipanjatt</a> <i class="icon-time"></i> <small>19 minutes ago</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">54</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1153477&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">vipanjatt</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=439&amp;t=3839035&amp;p=7854126&amp;sid=39098cbb6286921c8653776f34753919#p7854126"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">19 minutes ago</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Sep 2nd, 2020, 5:21 pm" href="./viewtopic.php?f=437&amp;t=3831614&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Adguard - Block Ads Without Root v4.0.3ƞ [Nightly] [Premium] [Mod]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Sep 2nd, 2020, 5:21 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">6</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">1947</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1924028&amp;sid=39098cbb6286921c8653776f34753919">CYLON41</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=437&amp;t=3831614&amp;p=7854100&amp;sid=39098cbb6286921c8653776f34753919#p7854100"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">27 minutes ago</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Feb 14th, 2014, 12:13 pm" href="./viewtopic.php?f=430&amp;t=715590&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Human Japanese v2.0.6</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=835482&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">puchi35</a> <i class="icon-time"></i> <small>Feb 14th, 2014, 12:13 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">10</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">4189</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1647888&amp;sid=39098cbb6286921c8653776f34753919">smuggler22</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=430&amp;t=715590&amp;p=7854073&amp;sid=39098cbb6286921c8653776f34753919#p7854073"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">33 minutes ago</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Sep 2nd, 2020, 4:13 pm" href="./viewtopic.php?f=428&amp;t=3831494&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">ACMarket v4.8.8 [Mod]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=1133616&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Stabiron</a> <i class="icon-time"></i> <small>Sep 2nd, 2020, 4:13 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">11</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">2680</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1187698&amp;sid=39098cbb6286921c8653776f34753919">thomasginn</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=428&amp;t=3831494&amp;p=7854060&amp;sid=39098cbb6286921c8653776f34753919#p7854060"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">36 minutes ago</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Jan 5th, 2020, 1:51 pm" href="./viewtopic.php?f=438&amp;t=3464387&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">ES File Manager | ES File Explorer v1.9 [Ad Free Mod]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=1344342&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">keril7771</a> <i class="icon-time"></i> <small>Jan 5th, 2020, 1:51 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">6</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">3208</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=767868&amp;sid=39098cbb6286921c8653776f34753919">jtolleridge</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=438&amp;t=3464387&amp;p=7854013&amp;sid=39098cbb6286921c8653776f34753919#p7854013"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">52 minutes ago</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 7:57 pm" href="./viewtopic.php?f=438&amp;t=3838986&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">KillApps: Close all apps running v1.19.3 [Pro][Modded][AOSP]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=920761&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">KirIif'</a> <i class="icon-time"></i> <small>Today, 7:57 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">152</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=920761&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">KirIif'</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=438&amp;t=3838986&amp;p=7853990&amp;sid=39098cbb6286921c8653776f34753919#p7853990"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 7:57 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 7:57 am" href="./viewtopic.php?f=429&amp;t=3837941&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">BeeTV v2.5.5 [Mod Lite]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Today, 7:57 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">7</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">614</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1378976&amp;sid=39098cbb6286921c8653776f34753919">StelioKantos</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=429&amp;t=3837941&amp;p=7853981&amp;sid=39098cbb6286921c8653776f34753919#p7853981"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 7:49 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 7:39 pm" href="./viewtopic.php?f=438&amp;t=3838973&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Physics Toolbox Sensor Suite Pro v2020.09.05 [Paid]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=908606&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">koumkouat</a> <i class="icon-time"></i> <small>Today, 7:39 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">94</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=908606&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">koumkouat</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=438&amp;t=3838973&amp;p=7853972&amp;sid=39098cbb6286921c8653776f34753919#p7853972"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 7:39 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 7:29 pm" href="./viewtopic.php?f=438&amp;t=3838971&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">KillApps: Close All Apps Running v1.19.3 [Premium]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=921310&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">derrin</a> <i class="icon-time"></i> <small>Today, 7:29 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">123</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=921310&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">derrin</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=438&amp;t=3838971&amp;p=7853962&amp;sid=39098cbb6286921c8653776f34753919#p7853962"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 7:29 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Aug 13th, 2020, 7:36 am" href="./viewtopic.php?f=1332&amp;t=3796309&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Deezer Music Player: Songs, Playlists &amp; Podcasts v6.2.7.126 [Mod]</a>
+<br />
+<strong class="pagination"><span><a href="./viewtopic.php?f=1332&amp;t=3796309&amp;sid=39098cbb6286921c8653776f34753919">1</a><li class="page-dots"> ... </li><a href="./viewtopic.php?f=1332&amp;t=3796309&amp;sid=39098cbb6286921c8653776f34753919&amp;start=60">5</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1332&amp;t=3796309&amp;sid=39098cbb6286921c8653776f34753919&amp;start=75">6</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1332&amp;t=3796309&amp;sid=39098cbb6286921c8653776f34753919&amp;start=90">7</a></span></strong><i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Aug 13th, 2020, 7:36 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">101</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">15296</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1831936&amp;sid=39098cbb6286921c8653776f34753919">Dntx25</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=1332&amp;t=3796309&amp;p=7853958&amp;sid=39098cbb6286921c8653776f34753919#p7853958"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 7:26 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 7:18 pm" href="./viewtopic.php?f=1336&amp;t=3838968&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Messenger Lite: Free Calls &amp; Messages v104.0.0.4.118</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a> <i class="icon-time"></i> <small>Today, 7:18 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">74</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=1336&amp;t=3838968&amp;p=7853950&amp;sid=39098cbb6286921c8653776f34753919#p7853950"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 7:18 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 7:12 pm" href="./viewtopic.php?f=1336&amp;t=3838957&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Facebook Lite v215.0.0.9.119</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a> <i class="icon-time"></i> <small>Today, 7:12 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">65</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=1336&amp;t=3838957&amp;p=7853939&amp;sid=39098cbb6286921c8653776f34753919#p7853939"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 7:12 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 7:11 pm" href="./viewtopic.php?f=432&amp;t=3838956&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">QuickEdit Text Editor Writer &amp; Code Editor v1.6.7 build 147 [Unlocked]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Today, 7:11 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">149</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=432&amp;t=3838956&amp;p=7853938&amp;sid=39098cbb6286921c8653776f34753919#p7853938"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 7:11 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 7:09 pm" href="./viewtopic.php?f=423&amp;t=3838949&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">365Scores - Live Scores &amp; Sports News v10.7.6 [Pro]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a> <i class="icon-time"></i> <small>Today, 7:09 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">107</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=423&amp;t=3838949&amp;p=7853930&amp;sid=39098cbb6286921c8653776f34753919#p7853930"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 7:09 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 5:58 pm" href="./viewtopic.php?f=443&amp;t=3838837&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Big collection of m3u files 6-9-2020 +{Xtream-Codes + StbEmu codes}</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=602468&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">fantap</a> <i class="icon-time"></i> <small>Today, 5:58 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">2</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">168</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=498836&amp;sid=39098cbb6286921c8653776f34753919" style="color: #0000FF;" class="username-coloured">ningarbread</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=443&amp;t=3838837&amp;p=7853889&amp;sid=39098cbb6286921c8653776f34753919#p7853889"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:50 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Aug 1st, 2020, 12:06 am" href="./viewtopic.php?f=1283&amp;t=3776650&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Jizztagram v1.0.5 [+18 Adult Content] [Dual Mods]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=1652766&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">spydog</a> <i class="icon-time"></i> <small>Aug 1st, 2020, 12:06 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">7</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">8228</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=523686&amp;sid=39098cbb6286921c8653776f34753919">catscam</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=1283&amp;t=3776650&amp;p=7853884&amp;sid=39098cbb6286921c8653776f34753919#p7853884"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:49 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:47 pm" href="./viewtopic.php?f=427&amp;t=3838912&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">VSCO: Photo &amp; Video Editor v181 [Unlocked]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Today, 6:47 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">148</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=427&amp;t=3838912&amp;p=7853878&amp;sid=39098cbb6286921c8653776f34753919#p7853878"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:47 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:44 pm" href="./viewtopic.php?f=442&amp;t=3838909&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Transparent clock weather(Ad-free) v5.0.2.1 [Paid] [Subscribed] [Mod]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Today, 6:44 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">200</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=442&amp;t=3838909&amp;p=7853870&amp;sid=39098cbb6286921c8653776f34753919#p7853870"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:44 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:44 pm" href="./viewtopic.php?f=428&amp;t=3838907&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Autosync - Universal Cloud Sync &amp; Backup v0.9.51-beta [Ultimate]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=336887&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">physicx</a> <i class="icon-time"></i> <small>Today, 6:44 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">144</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=336887&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">physicx</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=428&amp;t=3838907&amp;p=7853869&amp;sid=39098cbb6286921c8653776f34753919#p7853869"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:44 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:42 pm" href="./viewtopic.php?f=432&amp;t=3838902&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">TickTick: To Do List with Reminder v5.8.2 build 5820 [Pro]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Today, 6:42 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">113</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=432&amp;t=3838902&amp;p=7853863&amp;sid=39098cbb6286921c8653776f34753919#p7853863"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:42 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:40 pm" href="./viewtopic.php?f=434&amp;t=3838898&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Textra SMS v4.30 build 43004 [Pro] [Mod]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Today, 6:40 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">162</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=434&amp;t=3838898&amp;p=7853855&amp;sid=39098cbb6286921c8653776f34753919#p7853855"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:40 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:38 pm" href="./viewtopic.php?f=438&amp;t=3838895&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Storage Space v23.0.8 [Premium] [Mod]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Today, 6:38 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">155</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=438&amp;t=3838895&amp;p=7853851&amp;sid=39098cbb6286921c8653776f34753919#p7853851"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:38 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:34 pm" href="./viewtopic.php?f=425&amp;t=3838892&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Sleep Monitor: Sleep Cycle Track, Analysis, Music v1.3.2 [Pro] [Mod]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Today, 6:34 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">78</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=425&amp;t=3838892&amp;p=7853838&amp;sid=39098cbb6286921c8653776f34753919#p7853838"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:34 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:33 pm" href="./viewtopic.php?f=1332&amp;t=3838890&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">432 Player Pro - HiFi Lossless 432hz Music Player v30.3 [Paid]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a> <i class="icon-time"></i> <small>Today, 6:33 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">110</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=1332&amp;t=3838890&amp;p=7853834&amp;sid=39098cbb6286921c8653776f34753919#p7853834"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:33 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:32 pm" href="./viewtopic.php?f=432&amp;t=3838888&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Notes v9.4.9 [Donate] [Mod]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Today, 6:32 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">123</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=432&amp;t=3838888&amp;p=7853831&amp;sid=39098cbb6286921c8653776f34753919#p7853831"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:32 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 5:33 am" href="./viewtopic.php?f=429&amp;t=3837753&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Crackle v7.8.0.3 [Firestick] [Android TV] [Dual Mods]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=1652766&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">spydog</a> <i class="icon-time"></i> <small>Today, 5:33 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">2</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">679</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1438117&amp;sid=39098cbb6286921c8653776f34753919" style="color: #0000FF;" class="username-coloured">booomwaaaw</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=429&amp;t=3837753&amp;p=7853820&amp;sid=39098cbb6286921c8653776f34753919#p7853820"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:30 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Yesterday, 11:00 am" href="./viewtopic.php?f=429&amp;t=3836623&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">BeeTV v2.5.5 [Mod Extra]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Yesterday, 11:00 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">7</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">1417</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=429&amp;t=3836623&amp;p=7853817&amp;sid=39098cbb6286921c8653776f34753919#p7853817"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:29 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Aug 24th, 2020, 1:45 pm" href="./viewtopic.php?f=429&amp;t=3815003&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Viki: Stream Asian TV Shows, Movies, and Kdramas v6.2.3 [Unlocked]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=897764&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Nocna Furia</a> <i class="icon-time"></i> <small>Aug 24th, 2020, 1:45 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">2</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">770</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1944353&amp;sid=39098cbb6286921c8653776f34753919">gadguy</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=429&amp;t=3815003&amp;p=7853807&amp;sid=39098cbb6286921c8653776f34753919#p7853807"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:26 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Sep 1st, 2020, 12:14 pm" href="./viewtopic.php?f=429&amp;t=3829225&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Plex for Android v8.5.2.20133 [Final] [Unlocked]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=636409&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">Balatan</a> <i class="icon-time"></i> <small>Sep 1st, 2020, 12:14 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">1</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">721</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1948851&amp;sid=39098cbb6286921c8653776f34753919">Mobilism20200830</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=429&amp;t=3829225&amp;p=7853771&amp;sid=39098cbb6286921c8653776f34753919#p7853771"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:15 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 6:01 pm" href="./viewtopic.php?f=432&amp;t=3838841&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Simpan - Note various needs v1.2.0 [Paid]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=908606&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">koumkouat</a> <i class="icon-time"></i> <small>Today, 6:01 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">114</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=908606&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">koumkouat</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=432&amp;t=3838841&amp;p=7853729&amp;sid=39098cbb6286921c8653776f34753919#p7853729"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 6:01 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Jun 9th, 2020, 11:41 am" href="./viewtopic.php?f=427&amp;t=3696904&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Video Editor &amp; Video Maker - InShot v1.654.1287 [Pro] [Mod] [SAP]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=908606&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">koumkouat</a> <i class="icon-time"></i> <small>Jun 9th, 2020, 11:41 am</small>
+</td>
+<td class="stats-color"><span class="sub-stats">6</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">2223</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=1172724&amp;sid=39098cbb6286921c8653776f34753919">Shibaan92</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=427&amp;t=3696904&amp;p=7853690&amp;sid=39098cbb6286921c8653776f34753919#p7853690"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 5:44 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 5:29 pm" href="./viewtopic.php?f=430&amp;t=3838800&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Speak and Translate All Languages Voice Translator v2.7 [Pro]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=921310&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">derrin</a> <i class="icon-time"></i> <small>Today, 5:29 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">162</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=921310&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">derrin</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=430&amp;t=3838800&amp;p=7853657&amp;sid=39098cbb6286921c8653776f34753919#p7853657"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 5:29 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+<a class="topictitle" title="Posted : Today, 5:19 pm" href="./viewtopic.php?f=437&amp;t=3838791&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">AppLock - Fingerprint v7.7.0 [Premium]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=920761&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">KirIif'</a> <i class="icon-time"></i> <small>Today, 5:19 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">195</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=920761&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">KirIif'</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=437&amp;t=3838791&amp;p=7853634&amp;sid=39098cbb6286921c8653776f34753919#p7853634"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 5:19 pm</small>
+</td>
+</tr>
+<tr class="">
+<td>
+<i class="row-icon" style="background-image: url(./styles/BBOOTS/imageset/topic_moved.gif); background-repeat: no-repeat;" title="Moved topic"></i>
+ <a class="topictitle" title="Posted : Today, 5:15 pm" href="./viewtopic.php?f=428&amp;t=3838783&amp;sid=39098cbb6286921c8653776f34753919" class="topictitle">Free VPN - unlimited secure hotspot proxy - vpnify v1.8.7 [Pro]</a>
+<br />
+<i class="icon-user"></i> by <a href="./memberlist.php?mode=viewprofile&amp;u=921310&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">derrin</a> <i class="icon-time"></i> <small>Today, 5:15 pm</small>
+</td>
+<td class="stats-color"><span class="sub-stats">0</span> <span class="sub-stats-info">REPLIES</span> <br />
+<span class="sub-stats">174</span> <span class="sub-stats-info">VIEWS</span>
+</td>
+<td class="last-color"><span class="sub-stats-info">by</span> <a href="./memberlist.php?mode=viewprofile&amp;u=921310&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">derrin</a>
+<a rel="tooltip" data-placement="right" data-original-title="View the latest post" href="./viewtopic.php?f=428&amp;t=3838783&amp;p=7853627&amp;sid=39098cbb6286921c8653776f34753919#p7853627"><i class="mobile-post icon-signout"></i></a> <br /><small class="sub-stats-info">Today, 5:15 pm</small>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="space10"></div>
+<div class="space10"></div>
+<div class="row-fluid">
+<div class="pull-left">
+<div class="da-panel-content">
+<a href="./posting.php?mode=post&amp;f=399&amp;sid=39098cbb6286921c8653776f34753919" data-original-title="Post a new topic" type="button" class="btn"><i class="icon-share-alt"></i> New Topic</a>
+</div>
+</div>
+<div class="pull-right">
+<div class="pagination pagination-small hidden-phone">
+<ul>
+<li class="active"><a>1</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=40">2</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=80">3</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=120">4</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=160">5</a></li><li class="active"><a class="pointer-fix" href="#" onclick="jumpto(); return false;" title="Jump to page"> ... </a></li><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=351600">8791</a></li><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=40"><i class="icon-chevron-right"></i></a></li>
+</ul>
+</div>
+<div class="visible-phone">
+<div class="pagination pagination-small">
+<ul>
+<li class="active"><a>1</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=40">2</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=80">3</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=120">4</a></li><span class="page-sep">, </span><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=160">5</a></li><li class="active"><a class="pointer-fix" href="#" onclick="jumpto(); return false;" title="Jump to page"> ... </a></li><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=351600">8791</a></li><li><a href="./viewforum.php?f=399&amp;sid=39098cbb6286921c8653776f34753919&amp;start=40"><i class="icon-chevron-right"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="space10"></div>
+<div class="row-fluid">
+<br />
+</div>
+<div class="side-segment">
+<h3><a href="./viewonline.php?sid=39098cbb6286921c8653776f34753919">Who is online</a></h3>
+</div>
+<p><small>Users browsing this forum: <a href="./memberlist.php?mode=viewprofile&amp;u=313494&amp;sid=39098cbb6286921c8653776f34753919">Alexis0076</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1901569&amp;sid=39098cbb6286921c8653776f34753919">antinari</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=364548&amp;sid=39098cbb6286921c8653776f34753919">arthurkirkland</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1376103&amp;sid=39098cbb6286921c8653776f34753919">darkq</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=466496&amp;sid=39098cbb6286921c8653776f34753919">djcsurf</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=884982&amp;sid=39098cbb6286921c8653776f34753919">dodomanhia</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1309985&amp;sid=39098cbb6286921c8653776f34753919">Evgeniy</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=110160&amp;sid=39098cbb6286921c8653776f34753919">german</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=610956&amp;sid=39098cbb6286921c8653776f34753919">hawky51</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=87200&amp;sid=39098cbb6286921c8653776f34753919">hdgar</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=997004&amp;sid=39098cbb6286921c8653776f34753919">ilves</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=955560&amp;sid=39098cbb6286921c8653776f34753919">J.M.Horta</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=470028&amp;sid=39098cbb6286921c8653776f34753919">jcarlos12</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=928909&amp;sid=39098cbb6286921c8653776f34753919">jefmangr</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=640933&amp;sid=39098cbb6286921c8653776f34753919">kushalsv</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1180493&amp;sid=39098cbb6286921c8653776f34753919">Metax</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1760439&amp;sid=39098cbb6286921c8653776f34753919">mkdir</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1308276&amp;sid=39098cbb6286921c8653776f34753919">Muszka8383</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=166196&amp;sid=39098cbb6286921c8653776f34753919">nonameboy</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1127875&amp;sid=39098cbb6286921c8653776f34753919">paulvitti01</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=177254&amp;sid=39098cbb6286921c8653776f34753919" style="color: #0000FF;" class="username-coloured">pecemu</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1953188&amp;sid=39098cbb6286921c8653776f34753919">qwerty111110</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1953344&amp;sid=39098cbb6286921c8653776f34753919">rgl12</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=57456&amp;sid=39098cbb6286921c8653776f34753919">ricardo1976</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1168763&amp;sid=39098cbb6286921c8653776f34753919">Sentinel65</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1642746&amp;sid=39098cbb6286921c8653776f34753919">Vangolfer</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1153477&amp;sid=39098cbb6286921c8653776f34753919" style="color: #800080;" class="username-coloured">vipanjatt</a>, <a href="./memberlist.php?mode=viewprofile&amp;u=1615502&amp;sid=39098cbb6286921c8653776f34753919">vito777</a> and 49 guests</small></p>
+
+<div style="display:none;">
+<div class="side-segment"><h3>Forum permissions</h3></div>
+<p>You <strong>cannot</strong> post new topics in this forum<br />You <strong>cannot</strong> reply to topics in this forum<br />You <strong>cannot</strong> edit your posts in this forum<br />You <strong>cannot</strong> delete your posts in this forum<br /></p>
+</div>
+<style>
+#footerContent ol a:link{
+
+}
+
+#footerContent ol a:hover{
+	color: #2880b2 !important;
+  //  text-decoration: underline;
+}
+</style>
+<footer role="contentinfo"> 
+<div id="footerContent"> 
+<div class="row-fluid">
+<div class="span3">
+<div class="side-segment"><h3>Top Topics</h3></div>
+<ol style="list-style:decimal;margin: auto;padding: 11px;color: #555555;">
+<li><a href="http://forum.mobilism.org/viewtopic.php?t=3826166" alt="3077 views" style="color: #555555;font-size: 13px;">Eroflix v4.6 [+18 Adult Content] [Dual Mods]</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=3829378" alt="2754 views" style="color: #555555;font-size: 13px;">MX Player Online: Web Series, Games, Movies, Music v1.0.6 (Mod)</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=3832279" alt="2627 views" style="color: #555555;font-size: 13px;">MagellanTV Documentaries v1.1.8 [Subscribed] + Android TV</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=3830429" alt="2385 views" style="color: #555555;font-size: 13px;">Nova Launcher v6.2.14 [Beta] [Prime]</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=3831073" alt="2351 views" style="color: #555555;font-size: 13px;">TikTok v17.4.5 [Mod]</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=3831494" alt="2350 views" style="color: #555555;font-size: 13px;">ACMarket v4.8.8 [Mod]</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=3826806" alt="1938 views" style="color: #555555;font-size: 13px;">ES File Explorer File Manager v4.2.3.1 [Premium] [Mod]</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=3826524" alt="1872 views" style="color: #555555;font-size: 13px;">YMusic - YouTube music player &amp; downloader v3.5.1 [FULL]</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=3826190" alt="1542 views" style="color: #555555;font-size: 13px;">MX Player v1.28.1 [Unlocked AC3/DTS] [Color Mod]</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=3831614" alt="1541 views" style="color: #555555;font-size: 13px;">Adguard - Block Ads Without Root v4.0.3? [Nightly] [Premium] [Mod]</a></li>
+</ol>
+</div>
+<div class="span3">
+<div class="side-segment"><h3>App Reviews</h3></div>
+<ol style="list-style:decimal;margin: auto;padding: 11px;color: #555555;">
+<li><a href="http://forum.mobilism.org/viewtopic.php?t=1962822" alt="2588 views" style="color: #555555;font-size: 13px;">Ascension</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1957776" alt="3129 views" style="color: #555555;font-size: 13px;">Photo &amp; Picture Resizer</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1952874" alt="3600 views" style="color: #555555;font-size: 13px;">SuperRetro16 (SNES)</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1946142" alt="4612 views" style="color: #555555;font-size: 13px;">Spotify Music</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1940843" alt="3911 views" style="color: #555555;font-size: 13px;">Talisman</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1923528" alt="4368 views" style="color: #555555;font-size: 13px;">Star Realms</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1918530" alt="3558 views" style="color: #555555;font-size: 13px;">The Battle of Polytopia</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1891881" alt="3835 views" style="color: #555555;font-size: 13px;">BSPlayer</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1486147" alt="3759 views" style="color: #555555;font-size: 13px;">Missing: An Interactive Thriller</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1481156" alt="3774 views" style="color: #555555;font-size: 13px;">Skiing Yeti Mountain</a></li>
+</ol>
+</div>
+<div class="span3">
+<div class="side-segment"><h3>Book Reviews</h3></div>
+<ol style="list-style:decimal;margin: auto;padding: 11px;color: #555555;">
+<li><a href="http://forum.mobilism.org/viewtopic.php?t=1963856" alt="310 views" style="color: #555555;font-size: 13px;">Too Like the Lightning by Ada Palmer</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1939239" alt="1455 views" style="color: #555555;font-size: 13px;">Redlaw (Redlaw #1) By James Lovegrove</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1934130" alt="1668 views" style="color: #555555;font-size: 13px;">Jhereg (Vlad Taltos #1) by Steven Brust</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1928478" alt="1991 views" style="color: #555555;font-size: 13px;">Guest review: The Unpersuadables by Will Storr</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1924642" alt="2244 views" style="color: #555555;font-size: 13px;">The Story of Egypt by Joann Fletcher</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1923268" alt="2336 views" style="color: #555555;font-size: 13px;">Science Fiction 101 by Robert Silverberg</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1919964" alt="2172 views" style="color: #555555;font-size: 13px;">Pip and Nut: The Nut Butter Cookbook by Pippa Murray</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1916097" alt="2883 views" style="color: #555555;font-size: 13px;">Vegan Holiday Cookbook by Isa Chandra Moskowitz</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1912384" alt="2896 views" style="color: #555555;font-size: 13px;">The Ghost Network by Catie Disabato</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1910039" alt="2978 views" style="color: #555555;font-size: 13px;">The Female of the Species by Mindy McGinnis</a></li>
+</ol>
+</div>
+<div class="span3">
+<div class="side-segment"><h3>Games</h3></div>
+<ol style="list-style:decimal;margin: auto;padding: 11px;color: #555555;">
+<li><a href="http://forum.mobilism.org/viewtopic.php?t=1968220" alt="169 views" style="color: #555555;font-size: 13px;">Scavenger Hunt - Subscriptions Open</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1968082" alt="1021 views" style="color: #555555;font-size: 13px;">Twin BARRELS 2</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1967315" alt="383 views" style="color: #555555;font-size: 13px;">Catch sebastian99</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1967306" alt="297 views" style="color: #555555;font-size: 13px;">The NEW cube - game 31</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1965730" alt="365 views" style="color: #555555;font-size: 13px;">The NEW cube - game 30</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1965601" alt="11751 views" style="color: #555555;font-size: 13px;">Keep an eye (at my post)!</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1965518" alt="919 views" style="color: #555555;font-size: 13px;">Twin BARRELS 1</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1965488" alt="545 views" style="color: #555555;font-size: 13px;">Catch sebastian99 - subscription (ended)</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1964166" alt="462 views" style="color: #555555;font-size: 13px;">The NEW cube - game 29</a></li><li><a href="http://forum.mobilism.org/viewtopic.php?t=1963864" alt="494 views" style="color: #555555;font-size: 13px;">M contest a day...</a></li>
+</ol>
+</div>
+</div>
+</div> 
+<div class="row-fluid bottomLinks"> 
+<div class="pull-left">
+<small>All content &copy; 2006-2016 <a href="http://mobilism.org/">Mobilism</a>. <a href="./ppcw.php?mode=contact">Contact us</a> | <a href="./ppcw.php?mode=policies&amp;type=privacy">Privacy policy</a> | <a href="./ppcw.php?mode=policies&amp;type=terms">Terms &amp; conditions</a> | <a href="./ppcw.php?mode=policies&amp;type=copyright">Copyright policy</a></strong> </small>
+</div>
+<div class="pull-right">
+<small>Powered by <a href="http://www.phpbb.com/" title="Forum Software &copy; phpBB&reg; Group" target="_blank"><i aria-hidden="true" class="icon-moon-forphp"></i></a> <i aria-hidden="true" class="icon-moon-bootstrap"></i> <i aria-hidden="true" class="icon-moon-html5"></i> <i aria-hidden="true" class="icon-moon-css3"></i> <i aria-hidden="true" class="icon-moon-forjq"></i> <i aria-hidden="true" class="icon-moon-less_c"></i> <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fsitesplat.com%2Fdemo%2FphpBB3%2Findex.php" title="Conform to W3C HTML5 Standard" target="_blank"> <i aria-hidden="true" class="icon-moon-w3c"></i></a></small>
+</div>
+</div> 
+</footer>
+</main>
+</div>
+</div> 
+</div> 
+</div> 
+<a id="totop" class="topstyle" href="" onclick="return false;" style="display:none;"><i class="icon-chevron-up"></i></a>
+<div class="container">
+<div class="copyright">
+<small class="pull-left">
+
+</small>
+<small class="pull-right">
+All times are UTC [ <abbr title="Daylight Saving Time">DST</abbr> ]
+</small>
+</div>
+</div>
+<div class="space10"></div>
+<div>
+</div>
+
+<script>
+var filehosts=["rapidgator.net/","rg.to/","rapidshare.com/","uploaded.to/","uploaded.net/","ul.to/","uplod.it/","hulkload.com/","2shared.com/","billionuploads.com/","BillionUploads.com/","tusfiles.com/","userscloud.com/","dropapk.com/","dropapk.to/","mediafire.com/","centfile.com/","dailyuploads.net/","dailyuploads.cc/","upload.ac/","ddl.to/","uploadev.com/","uploadev.org/","intoupload.net/","uploadrar.com/","uploadrar.net/","mixloads.com/","filetitle.com/","sendit.cloud/","filerio.in/","mega4up.com/","filezip.cc/","dropgalaxy.in/"];var filehosts_len=33;
+    // some function that depends on bootstrap and jquery
+	head.ready(function () {
+
+	$(document).ready(function() {
+
+		function redqr(_href) {
+			for (var j=0; j<filehosts_len; j++) {
+				if (_href.match(filehosts[j])) {
+					return true;
+				}
+			}
+			return false;
+		}
+
+		$('.postlink').each(function(index, image) {
+			let self=$(this), _href = self.attr('href'), qricon, qrtext
+			if (!_href.match('mobilism.org\/')) {
+				if (redqr(_href)) {
+					qricon = '/images/icons/qrp.png';
+					qrtext = 'Scan QR code with <a href="https://forum.mobilism.org/viewtopic.php?f=19&t=214777"><b>Mobilism\'s App</b></a>! If logged in to <a href="https://forum.mobilism.org/viewtopic.php?f=19&t=284351"><b>Premium</b></a>, download will begin instantly. If not, link will be opened in browser.';
+				} else {
+					qricon = '/images/icons/qr.png',
+					qrtext = 'Scan QR code with <a href="https://forum.mobilism.org/viewtopic.php?f=19&t=214777"><b>Mobilism\'s App</b></a> to open the link.';
+				}
+				$(this).after('<style>.lightbox {display:none;left: 0px;width: 400px;max-width: 900px;} img.qr{padding-left: 10px;}</style><a href="#mqr'+index+'" rel="modal:open"><img class="qr" src="'+qricon+'"/></a><div class="lightbox modal" id="mqr'+index+'"><center><div><canvas id="qrcanvas'+index+'"></canvas></div><div style="width: 50%">'+qrtext+'</div></center></div><script>QRCode.toCanvas(document.getElementById("qrcanvas'+index+'"), "'+ _href +'");<'+'/script>');
+			}
+		});
+
+	   $(".selectpicker").selectpicker();
+$('.nav-icon > a').unbind('click').click(function(e) {
+    
+    var a = $(this).next('.submenu').css('opacity');
+    if (a == 0) {
+    	e.preventDefault();
+        $(this).next('.submenu').css('opacity', 100 - a);
+        $(this).next('.submenu').css('visibility', 'visible');
+    } else if (a == 100 || a == 1) {
+        e.preventDefault();
+        $(this).next('.submenu').css('opacity', 0);
+        $(this).next('.submenu').css('visibility', 'hidden');
+    } 
+});
+
+	// twitterFetcher.fetch("424076986709856256", "example1", 3, true, false);
+
+	   $('.footable').footable();
+	   $.fn.tooltip && $('[rel="tooltip"]').tooltip();
+	   $.fn.popover && $('[rel="popover"]').popover();
+
+	   $(".selectpicker").tooltip("disable");
+	   $(".btn-group [title]").tooltip({
+	       container: "body"
+	   });
+
+	   var totop = $("#totop");
+	   totop.click(function () {
+	       $("html, body").stop(true, true).animate({
+	           scrollTop: 0
+	       }, 500);
+	       return false
+	   });
+	   $(window).scroll(function () {
+	       if ($(this).scrollTop() > 600) {
+	           totop.fadeIn()
+	       } else {
+	           totop.fadeOut()
+	       }
+	   });
+	   $("button[data-loading-text]").click(function () {
+	       var e = $(this);
+	       e.button("loading");
+	       setTimeout(function () {
+	           e.button("reset")
+	       }, 3e3)
+	   });
+	   $("#nav-listen").on("show hide", function (e) {
+	       if ($(e.target).attr("id") != "nav-listen") {
+	           return
+	       }
+	       $("#nav-shown").toggleClass("icon-list icon-align-justify", 200)
+	   });
+	   $("#target-col").on("show hide", function (e) {
+	       if ($(e.target).attr("id") != "target-col") {
+	           return
+	       }
+	       $("#target-shown").toggleClass("icon-arrow-up icon-arrow-down", 200)
+	   });
+	   jQuery(function (e) {
+	       e("a").tooltip({
+	           html: true,
+	           container: "body"
+	       })
+	   });
+	   $(".btn-group [title]").tooltip({
+	       container: "body"
+	   })
+
+	   $('a:contains("Jump To")').text('Index');
+	
+});
+    });
+</script>
+
+
+
+<script type="text/javascript">
+//    console.log('disabled')
+</script>
+<script>
+window.addEventListener('resize', function() {
+if ($('#footerContent > div > div:nth-child(1) > ol')[0].offsetLeft == $('#footerContent > div > div:nth-child(2) > ol')[0].offsetLeft) {
+	$('#footerContent > div > div:nth-child(1) > ol').append($('#footerContent > div > div:nth-child(2) > ol li'));
+}
+else {
+	$('#footerContent > div > div:nth-child(2) > ol').append($('#footerContent > div > div:nth-child(1) > ol li:nth-child(n+6)'));
+}});
+
+if (0) {
+$(".dropdlown-menu lli la").click(function(event){
+
+  var selText = $(this).text();
+  $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');  
+  var q = {}
+  location.search.substr(1).split("&").forEach(function(item) {q[item.split("=")[0]] = item.split("=")[1]})
+  var forum = q['f'] ? q['f'] : 399;
+  get(forum, this.name);
+  event.preventDefault();
+});
+}
+
+function get(forum, time) {
+	var url;
+	t = { y: 'Yesterday', m: 'Month', w: 'Week', a: 'All Time' }
+	url = 't.php?f='+forum+"&y="+time;
+	$('#footerContent > div > div:nth-child(1) > div > h3').html("Top Topics " + t[time]);
+	$.getJSON( url, function( data ) {
+	  var items = [];
+	  $('#footerContent > div > div:nth-child(1) > ol li').remove();
+	  $('#footerContent > div > div:nth-child(1) > ol').append(unescape(data['a']).replace(/\+/g,' '))
+	  $('#footerContent > div > div:nth-child(2) > ol li').remove();
+	  $('#footerContent > div > div:nth-child(2) > ol').append(unescape(data['b']).replace(/\+/g,' '))	  	  
+	});
+}
+
+
+
+function getEbook() {
+	t = { y: 'Yesterday', m: 'Month', w: 'Week', a: 'All Time' }
+	time = 'r';
+	$('#footerContent > div > div:nth-child(4) > div > h3').html("Recent Reviews");
+  	$('#footerContent > div > div:nth-child(4) p:nth-child(2)').remove();
+  	$('#footerContent > div > div:nth-child(4) p:nth-child(2)').html('');
+  	$('#footerContent > div > div:nth-child(4) p:nth-child(2)').prepend($($('ol')[0]).parent().find('ol').clone());  	
+	var url;
+	forum = 1290;
+	url = 't.php?f='+forum+"&y="+time;
+	$.getJSON( url, function( data ) {
+	  var items = [];
+	  $('#footerContent > div > div:nth-child(4) p > ol li').remove();
+	  $('#footerContent > div > div:nth-child(4) p > ol').append(unescape(data['a']).replace(/\+/g,' '))	  
+	  $('#footerContent > div > div:nth-child(4) p > ol').append(unescape(data['b']).replace(/\+/g,' '))	  
+	});
+}
+head.ready(function() {
+//	getEbook();	
+});
+
+</script>
+</body>
+</html>
