@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:base="http://www.lesoir.be/rss/la_une/%20%20%20%20%20%20%20%20%20%20%20%20%20%20http%3A/www.lesoir.be/sites/all/themes/engbootstrap_lesoir/images/fb-image.png?status=1" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title> - www.lesoir.be</title>
+        <link>http://www.lesoir.be/rss/la_une/%20%20%20%20%20%20%20%20%20%20%20%20%20%20http%3A/www.lesoir.be/sites/all/themes/engbootstrap_lesoir/images/fb-image.png?status=1</link>
+        <description>Flux d'informations de la catégorie  du site www.lesoir.be</description>
+        <language>fr</language>
+        <copyright>Le Soir - 2020</copyright>
+        <pubDate>Sun, 06 Sep 2020 23:59:07 +0200</pubDate>
+        <lastBuildDate>Sun, 06 Sep 2020 23:59:07 +0200</lastBuildDate>
+        <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+        <generator>Lesoir - 2.0</generator>
+        <managingEditor>internet@lesoir.be (Rédaction Internet - Le Soir)</managingEditor>
+        <webMaster>internet@lesoir.be (Rédaction Internet - Le Soir)</webMaster>
+        <ttl>3</ttl>
+        <image>
+            <title> - www.lesoir.be</title>
+            <url>
+              http://www.lesoir.be/sites/all/themes/engbootstrap_lesoir/images/fb-image.png
+            </url>
+            <link>http://www.lesoir.be/rss/la_une/%20%20%20%20%20%20%20%20%20%20%20%20%20%20http%3A/www.lesoir.be/sites/all/themes/engbootstrap_lesoir/images/fb-image.png?status=1</link>
+            <width>100</width>
+            <height>100</height>
+        </image>
+       <atom:link href="http://www.lesoir.be/rss/la_une/%20%20%20%20%20%20%20%20%20%20%20%20%20%20http%3A/www.lesoir.be/sites/all/themes/engbootstrap_lesoir/images/fb-image.png" rel="self" type="application/rss+xml" />
+          </channel>
+</rss>
